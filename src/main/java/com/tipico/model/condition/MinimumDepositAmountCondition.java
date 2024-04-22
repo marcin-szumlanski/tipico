@@ -10,6 +10,6 @@ import lombok.*;
 @AllArgsConstructor
 @Getter
 @Setter
-public class MinimumDepositAmountCondition extends Condition {
+public non-sealed class MinimumDepositAmountCondition extends Condition {
     private int data;
 }

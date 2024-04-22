@@ -66,7 +66,6 @@ public class CampaignService {
                     || registrationDate.isAfter(c.getData());
             case MinimumDepositAmountCondition c -> depositAmount >= c.getData();
             case IsFirstDepositCondition c -> c.isData() && isFirstDeposit;
-            default -> false;
         };
     }
 

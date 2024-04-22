@@ -11,6 +11,6 @@ import lombok.*;
 @AllArgsConstructor
 @Getter
 @Setter
-public class RegistrationDateCondition extends Condition {
+public non-sealed class RegistrationDateCondition extends Condition {
     private LocalDateTime data;
 }

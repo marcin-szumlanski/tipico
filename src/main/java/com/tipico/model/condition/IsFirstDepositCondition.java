@@ -10,6 +10,6 @@ import lombok.*;
 @AllArgsConstructor
 @Getter
 @Setter
-public class IsFirstDepositCondition extends Condition {
+public non-sealed class IsFirstDepositCondition extends Condition {
     private boolean data;
 }

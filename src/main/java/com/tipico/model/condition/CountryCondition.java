@@ -10,6 +10,6 @@ import lombok.*;
 @AllArgsConstructor
 @Getter
 @Setter
-public class CountryCondition extends Condition {
+public non-sealed class CountryCondition extends Condition {
     private String data;
 }
